@@ -35,7 +35,8 @@ Este projeto tem como objetivo colocar em prática os conceitos fundamentais de 
 
 ## 👤 Autor
 
-Herbert
+Herbert de Alencar Guarezi
+Bruno Fernando Teixeira Duarte
 
 ## 🏫 Instituição
 
