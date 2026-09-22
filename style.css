@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Reset CSS*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img_logo {
+  max-height: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  object-fit: contain;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo do Header */
+
+body {
+  padding-top: 100px;
+}
+
+.header {
+  background-color: #f2e6cd;
+  color: #1a1712;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+  border-bottom: dashed #1a1712 2px;
+}
+
+.navigation-container {
+  max-width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.navigation-img {
+  height: 100%;
+}
+
+.titulo {
+  font-family: "Bebas Neue";
+  font-size: 2.5em;
+}
+
+.navigation-list li a {
+  position: relative;
+}
+
+.navigation-list li a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  height: 2px;
+  width: 0px;
+  background-color: #e2495a;
+  transition: width 0.2s ease;
+}
+
+.navigation-list li a:hover::before {
+  width: 100%;
+}
+
+.main-container {
+  background-color: #16130f;
+  padding: 20px 10px;
+}
+
+.main-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+}
+
+.white {
+  color: #f2e6cd;
+}
+
+.red {
+  color: #e2495a;
+}
+
+.titulo_xl {
+  margin: 5px;
+  font-family: "Bebas Neue";
+  font-size: 6em;
+}
+
+.corpo {
+  font-family: "Fraunces", "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.subTitulo {
+  font-family: "Kaushan Script", "Courier New", Courier, monospace;
+  font-size: 1.5em;
+}
+
+.img_corpo {
+  border-radius: 50%;
+  border: solid #f2e6cd 10px;
+}
