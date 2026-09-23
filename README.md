@@ -13,19 +13,23 @@ O **CAMISA12** é um site voltado para um serviço de **assinatura de camisas de
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
+- CSS3
 
-*Novas tecnologias serão adicionadas conforme o desenvolvimento avança (CSS, JavaScript, etc).*
+*Novas tecnologias serão adicionadas conforme o desenvolvimento avança (JavaScript, etc).*
 
 ## 📁 Estrutura do projeto
 
 ```
-CAMISA12/
+Trabalho_DW1/
 ├── index.html
-├── conteudos
-    ├── compreConosco.html
-    ├── nossasAssinaturas.html
-    ├── paginaInicial.html
-    ├── sobreNos.html
+├── style.css
+├── conteudos/
+│   ├── compreConosco.html
+│   ├── nossasAssinaturas.html
+│   ├── paginaInicial.html
+│   └── sobreNos.html
+├── media/
+│   └── (imagens e ícones do site)
 └── README.md
 ```
 
